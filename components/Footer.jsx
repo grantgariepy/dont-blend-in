@@ -6,7 +6,10 @@ const Footer = () => {
     <div className="footer-container">
       <p>2022 Grant Gariepy All rights reserverd</p>
       <p className="icons">
-        <AiFillGithub />
+        <a href="https://github.com/grantgariepy/dont-blend-in" target="_blank">
+
+          <AiFillGithub />
+        </a>
       </p>
     </div>
   )
